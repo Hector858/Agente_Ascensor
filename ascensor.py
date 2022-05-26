@@ -31,10 +31,10 @@ def ascendor():
             
             if otro_piso=='Piso2':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 2")
+                print("Moviendose al piso 2")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el esatdo de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -42,14 +42,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#Si el estado es 0 indica que esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 3")
+                print("Moviendose al piso 3")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el esatdo de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
@@ -57,17 +57,17 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
                 print("No realiza acciones. Consto actual: "+str(costo))
             if otro_piso2=='Piso2':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 2")
+                print("Moviendose al piso 2")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -75,14 +75,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#Si el estado es 0 indica que esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 3")
+                print("Moviendose al piso 3")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
@@ -90,7 +90,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
@@ -99,10 +99,10 @@ def ascendor():
             #Cuando el ascensor esta astivo en el Piso
             print("El asensor esta en movimiento")
             if otro_piso == 'Piso2':#El Piso al que se dirije el ascensor
-                print("Subiendo derecho a al piso 2")
+                print("Moviendose derecho a al piso 2")
                 if otro_estado=='1':#si esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el esatdo de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -110,13 +110,13 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#si esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso3':#El Piso al que se dirije el ascensor
-                print("Subiendo derecho a al piso 3")
+                print("Moviendose derecho a al piso 3")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el esatdo de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
@@ -124,17 +124,17 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else:
                 print("El asensor no se movio ya que se escogio el mismo piso")
                 print("No realiza acciones. Consto actual: "+str(costo))
             if otro_piso2=='Piso2':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 2")
+                print("Moviendose al piso 2")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -142,14 +142,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#Si el estado es 0 indica que esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 3")
+                print("Moviendose al piso 3")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
@@ -157,7 +157,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo)) 
             else:#Caso cuando no se pone niguna de las dos anteriores
                 print("No se mueve" + str(costo))
@@ -173,10 +173,10 @@ def ascendor():
             
             if otro_piso=='Piso1':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 1")
+                print("Moviendose al piso 1")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 1 y se abren las puertas")
@@ -184,32 +184,32 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #Si el estado es 0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 3")
+                print("Moviendose al piso 3")
                 if otro_estado=='1': #1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir y abrir las puertas
+                    costo+=1#incrementa costo por moverse y abrir las puertas
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
                 print("No realiza acciones. Consto actual: "+str(costo))
             if otro_piso2=='Piso1':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 1")
+                print("Moviendose al piso 1")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 1 y se abren las puertas")
@@ -217,14 +217,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #Si el estado es 0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo al piso 3")
+                print("Moviendose al piso 3")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 3 y se abren las puertas")
@@ -232,7 +232,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #0 indica que esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
@@ -241,10 +241,10 @@ def ascendor():
             #Cuando el ascensor esta astivo en el Piso
             print("El asensor esta en movimiento")
             if otro_piso == 'Piso1':#El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 1")
+                print("Moviendose derecho al piso 1")
                 if otro_estado=='1':#si esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'
                     print("Llego al piso 1 y se abren las puertas")
@@ -252,14 +252,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso3':
             #El Piso al que se dirije el ascensor
-                print("Subiendo derecho a al piso 3")
+                print("Moviendose derecho a al piso 3")
                 if otro_estado=='1':#1 indica que esta quieto 
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa el costo al subir
+                    costo+=1#incrementa el costo al moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'
                     print("Llego al piso 3 y se abren las puertas")
@@ -267,17 +267,17 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #si esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else:#Caso cuando no se pone niguna de las dos anteriores
                 print("No se mueve" + str(costo))
                 print(costo)
                 print("Se eleigio el mismo piso")  
             if otro_piso2 == 'Piso1': #El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 1")
+                print("Moviendose derecho al piso 1")
                 if otro_estado2=='1':#si esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'
                     print("Llego al piso 1 y se abren las puertas")
@@ -285,14 +285,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso3':
                 #El Piso al que se dirije el ascensor
-                print("Subiendo derecho a al piso 3")
+                print("Moviendose derecho a al piso 3")
                 if otro_estado=='1':#1 indica que esta quieto 
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa el costo al subir
+                    costo+=1#incrementa el costo al moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso3']='0'
                     print("Llego al piso 3 y se abren las puertas")
@@ -300,7 +300,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else: #si esta activo
                     print("Llego al piso 3 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else:#Caso cuando no se pone niguna de las dos anteriores
                 print("No se mueve" + str(costo))
@@ -317,25 +317,25 @@ def ascendor():
             
             if otro_piso=='Piso1':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 1")
+                print("Moviendose al piso 1")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
                     costo+=1#incrementa el costo por activar el asensor
                     print("costo actual: "+str(costo))
-                    estado_objetivo['Piso1']='0'#incrementa costo por subir
+                    estado_objetivo['Piso1']='0'#incrementa costo por moverse
                     print("Llego al piso 1 y se abren las puertas")
                     costo+=1#incrementa el costo por activar el asensor
                     print("costo actual: "+str(costo))
                 else: #Si el estado es 0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso2':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 2")
+                print("Moviendose al piso 2")
                 if otro_estado=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -343,17 +343,17 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
                 print("No realiza acciones. Consto actual: "+str(costo))
             if otro_piso2=='Piso1':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 1")
+                print("Moviendose al piso 1")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 1 y se abren las puertas")
@@ -361,14 +361,14 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#Si el estado es 0 indica que esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso2':
                 #El Piso al que se dirije el ascensor
-                print("Bajando al piso 2")
+                print("Moviendose al piso 2")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -376,7 +376,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#0 indica que esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("El asensor no se movio ya que se escogio el mismo piso")
@@ -385,7 +385,7 @@ def ascendor():
             #Cuando el ascensor esta astivo en el Piso
             print("El asensor esta en movimiento")
             if otro_piso == 'Piso1':#El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 1")
+                print("Moviendose derecho al piso 1")
                 if otro_estado=='1':#si esta quieto
                     print("Activando las puertas del asensor")
                     costo+=1#incrementa costo por subi
@@ -396,13 +396,13 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#si esta activo
                     print("Llego al piso 1 y se abren las puertas")
-                    costo+=1##incrementa costo por subir
+                    costo+=1##incrementa costo por moverse
                     print("costo actual: "+str(costo))
             elif otro_piso=='Piso2':#El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 2")
+                print("Moviendose derecho al piso 2")
                 if otro_estado=='1':#si esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -410,17 +410,17 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#si esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else: #Caso cuando no se pone niguna de las dos anteriores
                 print("No se mueve" + str(costo))
                 print(costo)
                 print("Se eleigio el mismo piso")  
             if otro_piso2 == 'Piso1':#El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 1")
+                print("Moviendose derecho al piso 1")
                 if otro_estado2=='1':#si esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1##incrementa costo por subir
+                    costo+=1##incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso1']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 1 y se abren las puertas")
@@ -431,10 +431,10 @@ def ascendor():
                     costo+=1##incrementa costo por sub
                     print("costo actual: "+str(costo))
             elif otro_piso2=='Piso2':#El Piso al que se dirije el ascensor
-                print("Bajando derecho al piso 2")
+                print("Moviendose derecho al piso 2")
                 if otro_estado2=='1':#1 indica que esta quieto
                     print("Activando las puertas del asensor")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
                     estado_objetivo['Piso2']='0'#cambia el estado de quieto a activado
                     print("Llego al piso 2 y se abren las puertas")
@@ -442,7 +442,7 @@ def ascendor():
                     print("costo actual: "+str(costo))
                 else:#si esta activo
                     print("Llego al piso 2 y se abren las puertas")
-                    costo+=1#incrementa costo por subir
+                    costo+=1#incrementa costo por moverse
                     print("costo actual: "+str(costo))
             else:#Caso cuando no se pone niguna de las dos anteriores
                 print("No se mueve" + str(costo))
